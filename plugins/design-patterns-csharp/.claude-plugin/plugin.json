@@ -2,7 +2,5 @@
   "name": "design-patterns-csharp",
   "version": "1.0.0",
   "description": "Referência completa dos 22 Design Patterns (GoF) com exemplos em C#/.NET.",
-  "skills": [
-    "skills/design-patterns-csharp"
-  ]
+  "skills": "./skills/"
 }
