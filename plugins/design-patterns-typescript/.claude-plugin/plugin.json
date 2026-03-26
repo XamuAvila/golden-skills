@@ -1,0 +1,6 @@
+{
+  "name": "design-patterns-typescript",
+  "version": "1.0.0",
+  "description": "Referência completa dos 22 Design Patterns (GoF) com exemplos em TypeScript.",
+  "skills": "./skills/"
+}
