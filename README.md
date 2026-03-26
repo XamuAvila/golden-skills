@@ -23,6 +23,9 @@ Marketplace de skills para Claude Code.
 | `design-patterns-typescript` | Referência completa dos 22 Design Patterns (GoF) com exemplos em TypeScript, diagramas Mermaid e orientação prática. |
 | `system-architecture` | Guia completo de System Architecture com 11 chapters: arquitetura de sistemas, API design, multi-cloud, technical debt, platform engineering e mais. |
 | `impact-analysis` | Análise de impacto pré-implementação: busca semântica LSP/Serena, perguntas assertivas, diagramas Mermaid de fluxos afetados e checklist de riscos. |
+| `langgraph-docs` | Referência LangGraph Python para agentes stateful, workflows multi-agent e human-in-the-loop. |
+| `langsmith` | Skills para LangSmith: tracing (`langsmith-trace`), datasets (`langsmith-dataset`) e evaluators (`langsmith-evaluator`). |
+| `prompt-architect` | 27 frameworks de prompt engineering com análise de intenção, templates e referências detalhadas. |
 
 ## Estrutura
 

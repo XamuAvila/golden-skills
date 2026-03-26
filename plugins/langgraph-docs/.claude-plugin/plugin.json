@@ -1,0 +1,6 @@
+{
+  "name": "langgraph-docs",
+  "version": "1.0.0",
+  "description": "Referência LangGraph Python para construir agentes stateful, workflows multi-agent e human-in-the-loop.",
+  "skills": "./skills/"
+}

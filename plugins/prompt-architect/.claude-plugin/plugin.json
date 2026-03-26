@@ -1,0 +1,10 @@
+{
+  "name": "prompt-architect",
+  "version": "3.2.2",
+  "description": "Analisa e melhora prompts usando 27 frameworks de prompt engineering com análise de intenção, templates e referências.",
+  "author": {
+    "name": "ckelsoe"
+  },
+  "license": "MIT",
+  "skills": "./skills/"
+}
