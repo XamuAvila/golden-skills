@@ -14,6 +14,11 @@
       "name": "system-architecture",
       "source": "./plugins/system-architecture",
       "description": "Guia completo de System Architecture com 11 chapters: arquitetura de sistemas, API design, multi-cloud, technical debt, platform engineering e mais."
+    },
+    {
+      "name": "impact-analysis",
+      "source": "./plugins/impact-analysis",
+      "description": "Análise de impacto pré-implementação com busca semântica LSP/Serena, perguntas assertivas, diagramas Mermaid e checklist de riscos."
     }
   ]
 }

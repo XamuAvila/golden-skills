@@ -1,0 +1,6 @@
+{
+  "name": "impact-analysis",
+  "version": "1.0.0",
+  "description": "Análise de impacto pré-implementação com busca semântica LSP, perguntas assertivas, diagramas Mermaid de fluxos afetados e checklist de cuidados.",
+  "skills": "./skills/"
+}
