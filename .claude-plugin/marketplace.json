@@ -1,0 +1,14 @@
+{
+  "name": "golden-skills",
+  "description": "Marketplace de skills para Claude Code — referências, patterns e boas práticas.",
+  "owner": {
+    "name": "XamuAvila"
+  },
+  "plugins": [
+    {
+      "name": "design-patterns-csharp",
+      "source": "./plugins/design-patterns-csharp",
+      "description": "Referência completa dos 22 Design Patterns (GoF) com exemplos em C#/.NET, diagramas Mermaid e orientação prática."
+    }
+  ]
+}
