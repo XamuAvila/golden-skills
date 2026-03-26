@@ -1,0 +1,8 @@
+{
+  "name": "system-architecture",
+  "version": "1.0.0",
+  "description": "Guia completo de System Architecture com 11 chapters cobrindo arquitetura de sistemas, API design, multi-cloud, technical debt, platform engineering e mais.",
+  "skills": [
+    "skills/system-architecture"
+  ]
+}

@@ -20,6 +20,7 @@ Marketplace de skills para Claude Code.
 | Plugin | Descrição |
 |--------|-----------|
 | `design-patterns-csharp` | Referência completa dos 22 Design Patterns (GoF) com exemplos em C#/.NET, diagramas Mermaid e orientação prática. |
+| `system-architecture` | Guia completo de System Architecture com 11 chapters: arquitetura de sistemas, API design, multi-cloud, technical debt, platform engineering e mais. |
 
 ## Estrutura
 
