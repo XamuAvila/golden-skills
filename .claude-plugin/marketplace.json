@@ -38,7 +38,7 @@
     {
       "name": "prompt-architect",
       "source": "./plugins/prompt-architect",
-      "description": "Analisa e melhora prompts usando 27 frameworks de prompt engineering. Recomenda o framework ideal por intenção e entrega prompts estruturados."
+      "description": "Senior prompt architecture reviewer for OpenAI API production systems. Reviews and rewrites system prompts, tool-calling instructions, structured outputs, multi-agent prompts, and RAG configurations across the full OpenAI model stack."
     }
   ]
 }

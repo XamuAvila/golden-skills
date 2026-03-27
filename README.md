@@ -51,7 +51,7 @@ git submodule update --init --recursive
 |--------|--------|-----------|--------|
 | `langchain-skills` | 11 skills (LangGraph, LangChain, Deep Agents, RAG) | Skills oficiais para LangChain, LangGraph e Deep Agents | [langchain-ai/langchain-skills](https://github.com/langchain-ai/langchain-skills) (submodule) |
 | `langsmith-skills` | `langsmith-trace`, `langsmith-dataset`, `langsmith-evaluator` | Skills oficiais para observabilidade e avaliação com LangSmith | [langchain-ai/langsmith-skills](https://github.com/langchain-ai/langsmith-skills) (submodule) |
-| `prompt-architect` | `prompt-architect` | 27 frameworks de prompt engineering com análise de intenção e templates | Próprio |
+| `prompt-architect` | `prompt-architecture-reviewer` | Reviewer de arquitetura de prompts para produção OpenAI API (GPT-4o, o1/o3, GPT-4.1, mini, fine-tuned) | Próprio |
 
 ### Engenharia de Software
 
@@ -192,16 +192,17 @@ Fonte: [langchain-ai/langsmith-skills](https://github.com/langchain-ai/langsmith
 
 ### `prompt-architect`
 
-27 frameworks de prompt engineering com:
+Senior prompt architecture reviewer para sistemas em produção com OpenAI API:
 
-- Análise automática de intenção do prompt
-- Recomendação do framework ideal para cada caso
-- Templates estruturados prontos para uso
-- Referências detalhadas de cada framework
+- Analisa prompts contra 10 critérios de qualidade com scoring 0-30
+- Reescreve prompts otimizados para produção (copy-paste ready)
+- Cobre todo o stack OpenAI: GPT-4o, o1/o3, GPT-4.1, mini, fine-tuned
+- Patterns especializados: tool calling, structured outputs, multi-agent, RAG
+- Gera variantes opcionais: JSON output, tool calling, reasoning, supervisor multi-agent
 
 ```bash
 /plugin install prompt-architect@golden-skills
-/prompt-architect:prompt-architect
+/prompt-architect:prompt-architecture-reviewer
 ```
 
 ---

@@ -1,10 +1,6 @@
 {
   "name": "prompt-architect",
-  "version": "3.2.2",
-  "description": "Analisa e melhora prompts usando 27 frameworks de prompt engineering com análise de intenção, templates e referências.",
-  "author": {
-    "name": "ckelsoe"
-  },
-  "license": "MIT",
+  "version": "2.0.0",
+  "description": "Senior prompt architecture reviewer for OpenAI API production systems. Analyzes, reviews, and rewrites system prompts, tool-calling instructions, structured output templates, multi-agent prompts, and RAG configurations. Covers the full OpenAI model stack (GPT-4o, o1/o3, mini, fine-tuned).",
   "skills": "./skills/"
 }
