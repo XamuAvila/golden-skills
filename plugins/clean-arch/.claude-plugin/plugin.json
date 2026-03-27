@@ -1,0 +1,6 @@
+{
+  "name": "clean-architecture-csharp",
+  "version": "1.0.0",
+  "description": "Guia de Clean Architecture com princípios SOLID no nível arquitetural, camadas, Dependency Rule e implementação prática em C#/.NET.",
+  "skills": "./skills/"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "clean-code-csharp",
+  "version": "1.0.0",
+  "description": "Advisor de qualidade de código C# baseado nos princípios de Clean Code de Robert C. Martin, com catálogo de code smells e guia de princípios.",
+  "skills": "./skills/"
+}
