@@ -1,0 +1,6 @@
+[submodule "plugins/langchain-skills"]
+	path = plugins/langchain-skills
+	url = https://github.com/langchain-ai/langchain-skills.git
+[submodule "plugins/langsmith-skills"]
+	path = plugins/langsmith-skills
+	url = https://github.com/langchain-ai/langsmith-skills.git

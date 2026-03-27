@@ -1,6 +1,0 @@
-{
-  "name": "langsmith",
-  "version": "1.0.0",
-  "description": "Skills para LangSmith: tracing, datasets e evaluators. Cobre rastreamento de agentes, criação de datasets de avaliação e pipelines de avaliação.",
-  "skills": "./skills/"
-}

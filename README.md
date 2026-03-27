@@ -17,6 +17,17 @@ Marketplace de skills para [Claude Code](https://docs.anthropic.com/en/docs/clau
 /plugin install <nome-do-plugin>@golden-skills
 ```
 
+### Clonando o repositório
+
+Este repo usa git submodules para incluir skills oficiais da LangChain. Para clonar com todo o conteúdo:
+
+```bash
+git clone --recurse-submodules https://github.com/XamuAvila/golden-skills.git
+
+# Se já clonou sem submodules:
+git submodule update --init --recursive
+```
+
 ---
 
 ## Plugins Disponíveis
@@ -36,11 +47,11 @@ Marketplace de skills para [Claude Code](https://docs.anthropic.com/en/docs/clau
 
 ### AI/LLM
 
-| Plugin | Skills | Descrição |
-|--------|--------|-----------|
-| `langgraph-docs` | `langgraph-docs` | Referência LangGraph Python para agentes stateful, workflows multi-agent e human-in-the-loop |
-| `langsmith` | `langsmith-trace`, `langsmith-dataset`, `langsmith-evaluator` | Tracing, datasets e avaliação de agentes com LangSmith |
-| `prompt-architect` | `prompt-architect` | 27 frameworks de prompt engineering com análise de intenção e templates |
+| Plugin | Skills | Descrição | Origem |
+|--------|--------|-----------|--------|
+| `langchain-skills` | 11 skills (LangGraph, LangChain, Deep Agents, RAG) | Skills oficiais para LangChain, LangGraph e Deep Agents | [langchain-ai/langchain-skills](https://github.com/langchain-ai/langchain-skills) (submodule) |
+| `langsmith-skills` | `langsmith-trace`, `langsmith-dataset`, `langsmith-evaluator` | Skills oficiais para observabilidade e avaliação com LangSmith | [langchain-ai/langsmith-skills](https://github.com/langchain-ai/langsmith-skills) (submodule) |
+| `prompt-architect` | `prompt-architect` | 27 frameworks de prompt engineering com análise de intenção e templates | Próprio |
 
 ### Engenharia de Software
 
@@ -142,34 +153,39 @@ Ideal para usar **antes** de implementar features, refatorações ou bugfixes.
 
 ---
 
-### `langgraph-docs`
+### `langchain-skills` (submodule oficial)
 
-Referência atualizada de LangGraph Python para construir:
+11 skills oficiais mantidas pela equipe da LangChain, organizadas em 4 categorias:
 
-- Agentes stateful com grafos de estado
-- Workflows multi-agent com coordenação
-- Patterns de human-in-the-loop
-- Integração com LangChain e LangSmith
+| Categoria | Skills |
+|-----------|--------|
+| **Getting Started** | `framework-selection`, `langchain-dependencies` |
+| **LangChain** | `langchain-fundamentals`, `langchain-middleware`, `langchain-rag` |
+| **LangGraph** | `langgraph-fundamentals`, `langgraph-persistence`, `langgraph-human-in-the-loop` |
+| **Deep Agents** | `deep-agents-core`, `deep-agents-memory`, `deep-agents-orchestration` |
+
+Fonte: [langchain-ai/langchain-skills](https://github.com/langchain-ai/langchain-skills) — incluído como git submodule.
 
 ```bash
-/plugin install langgraph-docs@golden-skills
-/langgraph-docs:langgraph-docs
+/plugin install langchain-skills@golden-skills
 ```
 
 ---
 
-### `langsmith`
+### `langsmith-skills` (submodule oficial)
 
-3 skills para o ecossistema LangSmith:
+3 skills oficiais para observabilidade e avaliação de agentes LLM:
 
 | Skill | Uso |
 |-------|-----|
-| `/langsmith:langsmith-trace` | Rastreamento de execução de agentes e queries de traces |
-| `/langsmith:langsmith-dataset` | Criação e gerenciamento de datasets de avaliação |
-| `/langsmith:langsmith-evaluator` | Pipelines de avaliação (LLM-as-Judge, custom code, auto-run) |
+| `/langsmith-skills:langsmith-trace` | Rastreamento de execução e queries de traces |
+| `/langsmith-skills:langsmith-dataset` | Criação e gerenciamento de datasets de avaliação |
+| `/langsmith-skills:langsmith-evaluator` | Pipelines de avaliação (LLM-as-Judge, custom code, auto-run) |
+
+Fonte: [langchain-ai/langsmith-skills](https://github.com/langchain-ai/langsmith-skills) — incluído como git submodule.
 
 ```bash
-/plugin install langsmith@golden-skills
+/plugin install langsmith-skills@golden-skills
 ```
 
 ---
@@ -217,8 +233,8 @@ golden-skills/
 │   │           └── patterns/         # behavioral/ creational/ structural/
 │   ├── design-patterns-typescript/
 │   ├── impact-analysis/
-│   ├── langgraph-docs/
-│   ├── langsmith/
+│   ├── langchain-skills/        # git submodule → langchain-ai/langchain-skills
+│   ├── langsmith-skills/        # git submodule → langchain-ai/langsmith-skills
 │   └── prompt-architect/
 └── README.md
 ```

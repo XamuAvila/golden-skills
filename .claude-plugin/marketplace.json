@@ -26,14 +26,14 @@
       "description": "Análise de impacto pré-implementação com busca semântica LSP/Serena, perguntas assertivas, diagramas Mermaid e checklist de riscos."
     },
     {
-      "name": "langgraph-docs",
-      "source": "./plugins/langgraph-docs",
-      "description": "Referência LangGraph Python para construir agentes stateful, workflows multi-agent e human-in-the-loop patterns."
+      "name": "langchain-skills",
+      "source": "./plugins/langchain-skills",
+      "description": "Skills oficiais da LangChain: LangGraph, LangChain fundamentals, RAG, Deep Agents, human-in-the-loop e persistência. (submodule: langchain-ai/langchain-skills)"
     },
     {
-      "name": "langsmith",
-      "source": "./plugins/langsmith",
-      "description": "Skills para LangSmith: tracing, datasets e evaluators para rastreamento, avaliação e monitoramento de agentes."
+      "name": "langsmith-skills",
+      "source": "./plugins/langsmith-skills",
+      "description": "Skills oficiais da LangSmith: tracing, datasets e evaluators para observabilidade e avaliação de agentes LLM. (submodule: langchain-ai/langsmith-skills)"
     },
     {
       "name": "prompt-architect",
