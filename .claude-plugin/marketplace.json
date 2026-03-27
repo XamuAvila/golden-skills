@@ -16,9 +16,9 @@
       "description": "Referência completa dos 22 Design Patterns (GoF) com exemplos em TypeScript, diagramas Mermaid e orientação prática."
     },
     {
-      "name": "system-architecture",
-      "source": "./plugins/system-architecture",
-      "description": "Guia completo de System Architecture com 11 chapters: arquitetura de sistemas, API design, multi-cloud, technical debt, platform engineering e mais."
+      "name": "csharp-quality-suite",
+      "source": "./plugins/csharp-quality-suite",
+      "description": "Suite completa de qualidade C#/.NET: Clean Code (code smells, princípios), Clean Architecture (camadas, SOLID arquitetural, Dependency Rule) e System Architecture (diagramas, API design, multi-cloud, platform engineering)."
     },
     {
       "name": "impact-analysis",

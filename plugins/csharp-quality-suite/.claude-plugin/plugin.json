@@ -1,0 +1,6 @@
+{
+  "name": "csharp-quality-suite",
+  "version": "1.0.0",
+  "description": "Suite completa de qualidade de software C#/.NET: Clean Code (code smells, princípios), Clean Architecture (camadas, SOLID arquitetural, Dependency Rule) e System Architecture (diagramas, API design, multi-cloud, platform engineering).",
+  "skills": "./skills/"
+}
