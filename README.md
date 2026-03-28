@@ -32,6 +32,21 @@ git submodule update --init --recursive
 
 ## Plugins Disponíveis
 
+### All-in-One
+
+| Plugin | Skills | Descrição |
+|--------|--------|-----------|
+| `golden-suite` | `full-review` | Orquestrador que combina TODAS as capabilities num único comando. Carrega referências sob demanda. |
+
+```bash
+/plugin install golden-suite@golden-skills
+/golden-suite:full-review
+```
+
+> **Recomendado para a maioria dos usuários.** Instale apenas este plugin para ter acesso a Clean Code, Clean Architecture, System Architecture, Design Patterns (C#/TS), Impact Analysis e Prompt Architecture Review — tudo numa só skill.
+
+---
+
 ### C#/.NET
 
 | Plugin | Skills | Descrição |

@@ -6,6 +6,11 @@
   },
   "plugins": [
     {
+      "name": "golden-suite",
+      "source": "./plugins/golden-suite",
+      "description": "All-in-one orchestrator: combines Clean Code, Clean Architecture, System Architecture, Design Patterns (C#/TS), Impact Analysis, and Prompt Architecture Review in a single skill with on-demand reference loading."
+    },
+    {
       "name": "design-patterns-csharp",
       "source": "./plugins/design-patterns-csharp",
       "description": "Referência completa dos 22 Design Patterns (GoF) com exemplos em C#/.NET, diagramas Mermaid e orientação prática."
