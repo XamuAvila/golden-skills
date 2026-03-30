@@ -1,0 +1,6 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "description": "Guide for writing high-quality unit tests based on Roy Osherove's 'The Art of Unit Testing'. Covers test organization, naming conventions, mocking/stubbing patterns, testability, legacy code testing, and the three pillars of trustworthy, maintainable, and readable tests.",
+  "skills": "./skills/"
+}

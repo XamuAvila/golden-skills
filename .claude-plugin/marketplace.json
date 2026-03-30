@@ -49,6 +49,11 @@
       "name": "user-stories-craft",
       "source": "./plugins/user-stories-craft",
       "description": "Skill para escrita, splitting, estimativa e gestao de user stories — do product vision ate developer-ready tasks. Baseado em Mike Cohn's User Stories Applied com praticas ageis modernas."
+    },
+    {
+      "name": "unit-testing",
+      "source": "./plugins/unit-testing",
+      "description": "Guide for writing high-quality unit tests based on Roy Osherove's 'The Art of Unit Testing'. Covers test organization, naming, mocking/stubbing, testability, legacy code testing, and the three pillars of trustworthy, maintainable, and readable tests."
     }
   ]
 }
