@@ -1,0 +1,6 @@
+{
+  "name": "user-stories-craft",
+  "version": "1.0.0",
+  "description": "Skill para escrita, splitting, estimativa e gestao de user stories — do product vision ate developer-ready tasks. Baseado em Mike Cohn's User Stories Applied com praticas ageis modernas.",
+  "skills": "./skills/"
+}

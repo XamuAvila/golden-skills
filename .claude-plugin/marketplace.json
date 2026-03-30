@@ -8,7 +8,7 @@
     {
       "name": "golden-suite",
       "source": "./plugins/golden-suite",
-      "description": "All-in-one orchestrator: combines Clean Code, Clean Architecture, System Architecture, Design Patterns (C#/TS), Impact Analysis, and Prompt Architecture Review in a single skill with on-demand reference loading."
+      "description": "All-in-one orchestrator: combines Clean Code, Clean Architecture, System Architecture, Design Patterns (C#/TS), Impact Analysis, Prompt Architecture Review, and User Stories Craft in a single skill with on-demand reference loading."
     },
     {
       "name": "design-patterns-csharp",
@@ -44,6 +44,11 @@
       "name": "prompt-architect",
       "source": "./plugins/prompt-architect",
       "description": "Senior prompt architecture reviewer for OpenAI API production systems. Reviews and rewrites system prompts, tool-calling instructions, structured outputs, multi-agent prompts, and RAG configurations across the full OpenAI model stack."
+    },
+    {
+      "name": "user-stories-craft",
+      "source": "./plugins/user-stories-craft",
+      "description": "Skill para escrita, splitting, estimativa e gestao de user stories — do product vision ate developer-ready tasks. Baseado em Mike Cohn's User Stories Applied com praticas ageis modernas."
     }
   ]
 }

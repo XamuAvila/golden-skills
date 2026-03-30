@@ -1,6 +1,6 @@
 {
   "name": "golden-suite",
   "version": "1.0.0",
-  "description": "Orchestrator skill that combines all golden-skills capabilities: Clean Code, Clean Architecture, System Architecture, Design Patterns (C#/TS), Impact Analysis, and Prompt Architecture Review. One skill to rule them all.",
+  "description": "Orchestrator skill that combines all golden-skills capabilities: Clean Code, Clean Architecture, System Architecture, Design Patterns (C#/TS), Impact Analysis, Prompt Architecture Review, and User Stories Craft. One skill to rule them all.",
   "skills": "./skills/"
 }
