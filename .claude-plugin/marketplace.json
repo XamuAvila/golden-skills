@@ -54,6 +54,11 @@
       "name": "unit-testing",
       "source": "./plugins/unit-testing",
       "description": "Guide for writing high-quality unit tests based on Roy Osherove's 'The Art of Unit Testing'. Covers test organization, naming, mocking/stubbing, testability, legacy code testing, and the three pillars of trustworthy, maintainable, and readable tests."
+    },
+    {
+      "name": "startup-cto-handbook",
+      "source": "./plugins/startup-cto-handbook",
+      "description": "Startup engineering leadership guide from 'The Startup CTO's Handbook' by Zach Goldberg. Covers engineering management, hiring, 1:1s, performance reviews, tech debt, roadmaps, agile processes, architecture decisions, DevOps, team organization, and working with executives."
     }
   ]
 }

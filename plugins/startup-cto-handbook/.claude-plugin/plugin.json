@@ -1,0 +1,6 @@
+{
+  "name": "startup-cto-handbook",
+  "version": "1.0.0",
+  "description": "Startup engineering leadership guide from 'The Startup CTO's Handbook' by Zach Goldberg. Covers engineering management, hiring, 1:1s, performance reviews, tech debt, roadmaps, agile processes, architecture decisions, DevOps, team organization, and working with executives.",
+  "skills": "./skills/"
+}
