@@ -1,0 +1,6 @@
+{
+  "name": "design-patterns-go",
+  "version": "1.0.0",
+  "description": "Catálogo dos 22 Design Patterns (GoF) com exemplos idiomáticos em Go.",
+  "skills": "./skills/"
+}

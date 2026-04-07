@@ -8,7 +8,7 @@
     {
       "name": "golden-suite",
       "source": "./plugins/golden-suite",
-      "description": "All-in-one orchestrator: combines Clean Code, Clean Architecture, System Architecture, Design Patterns (C#/TS), Impact Analysis, Prompt Architecture Review, and User Stories Craft in a single skill with on-demand reference loading."
+      "description": "All-in-one orchestrator: combines Clean Code, Clean Architecture, System Architecture, Design Patterns (C#/TS/Go), Impact Analysis, Prompt Architecture Review, and User Stories Craft in a single skill with on-demand reference loading."
     },
     {
       "name": "design-patterns-csharp",
@@ -19,6 +19,11 @@
       "name": "design-patterns-typescript",
       "source": "./plugins/design-patterns-typescript",
       "description": "Referência completa dos 22 Design Patterns (GoF) com exemplos em TypeScript, diagramas Mermaid e orientação prática."
+    },
+    {
+      "name": "design-patterns-go",
+      "source": "./plugins/design-patterns-go",
+      "description": "Catálogo dos 22 Design Patterns (GoF) com exemplos idiomáticos em Go, framework de decisão arquitetural e orientação sobre idiomas Go (composição, interfaces implícitas, goroutines/channels)."
     },
     {
       "name": "csharp-quality-suite",

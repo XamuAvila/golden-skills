@@ -1,6 +1,6 @@
 ---
 name: full-review
-description: "Orchestrator skill that activates all golden-skills capabilities in a single invocation. Use when the user wants comprehensive code review, architecture analysis, impact assessment, design pattern guidance, prompt review, or user story crafting — without invoking each skill separately. Triggers on: 'full review', 'review everything', 'analyze this project', 'comprehensive review', 'write user stories', 'break into stories', 'sprint planning', or any request that could benefit from multiple skills working together. Also activates when the user invokes /golden-suite:full-review explicitly."
+description: "Orchestrator skill that activates all golden-skills capabilities in a single invocation. Use when the user wants comprehensive code review, architecture analysis, impact assessment, design pattern guidance (C#, TypeScript, Go), prompt review, or user story crafting — without invoking each skill separately. Triggers on: 'full review', 'review everything', 'analyze this project', 'comprehensive review', 'write user stories', 'break into stories', 'sprint planning', or any request that could benefit from multiple skills working together. Also activates when the user invokes /golden-suite:full-review explicitly."
 ---
 
 # Golden Suite — Full Review Orchestrator
@@ -69,7 +69,7 @@ You have 6 specialized domains available. For each domain, reference files exist
 
 ---
 
-### 4. Design Patterns (C# and TypeScript)
+### 4. Design Patterns (C#, TypeScript, and Go)
 
 **When to use**: Suggesting patterns for a problem, reviewing pattern usage, refactoring with patterns, comparing patterns.
 
@@ -83,11 +83,17 @@ You have 6 specialized domains available. For each domain, reference files exist
 **TypeScript patterns** in `references/design-patterns-typescript/patterns/`:
 - Same 22 patterns, TypeScript implementations
 
+**Go patterns** in `references/design-patterns-go/`:
+- `creational/`: abstract-factory, builder, factory-method, prototype, singleton
+- `structural/`: adapter, bridge, composite, decorator, facade, flyweight, proxy
+- `behavioral/`: chain-of-responsibility, command, iterator, mediator, memento, observer, state, strategy, template-method, visitor
+
 **Approach**:
 - Load only the pattern(s) relevant to the discussion
 - Include Mermaid diagrams, compilable code, when to use, and relationships with other patterns
 - For C#: consider modern features (records, pattern matching, LINQ)
 - For TypeScript: consider framework context (NestJS, Next.js, React)
+- For Go: respect Go idioms (composition over inheritance, implicit interfaces, goroutines/channels, `sync.Once` for singletons, explicit error returns)
 
 ---
 

@@ -43,7 +43,7 @@ git submodule update --init --recursive
 /golden-suite:full-review
 ```
 
-> **Recomendado para a maioria dos usuários.** Instale apenas este plugin para ter acesso a Clean Code, Clean Architecture, System Architecture, Design Patterns (C#/TS), Impact Analysis e Prompt Architecture Review — tudo numa só skill.
+> **Recomendado para a maioria dos usuários.** Instale apenas este plugin para ter acesso a Clean Code, Clean Architecture, System Architecture, Design Patterns (C#/TS/Go), Impact Analysis e Prompt Architecture Review — tudo numa só skill.
 
 ---
 
@@ -59,6 +59,12 @@ git submodule update --init --recursive
 | Plugin | Skills | Descrição |
 |--------|--------|-----------|
 | `design-patterns-typescript` | `design-patterns-typescript` | 22 Design Patterns (GoF) com exemplos em TypeScript e diagramas Mermaid |
+
+### Go
+
+| Plugin | Skills | Descrição |
+|--------|--------|-----------|
+| `design-patterns-go` | `design-patterns-go` | 22 Design Patterns (GoF) com exemplos idiomáticos em Go e framework de decisão arquitetural |
 
 ### AI/LLM
 
@@ -146,6 +152,17 @@ Mesma cobertura dos 22 GoF patterns, com implementações em TypeScript para Nod
 ```bash
 /plugin install design-patterns-typescript@golden-skills
 /design-patterns-typescript:design-patterns-typescript
+```
+
+---
+
+### `design-patterns-go`
+
+Catálogo dos 22 GoF patterns com implementações idiomáticas em Go. Inclui framework de decisão arquitetural que avalia o problema antes de recomendar patterns, respeitando os idiomas de Go (composição sobre herança, interfaces implícitas, goroutines/channels, `sync.Once`, erros explícitos).
+
+```bash
+/plugin install design-patterns-go@golden-skills
+/design-patterns-go:design-patterns-go
 ```
 
 ---
@@ -248,6 +265,7 @@ golden-skills/
 │   │           ├── SKILL.md
 │   │           └── patterns/         # behavioral/ creational/ structural/
 │   ├── design-patterns-typescript/
+│   ├── design-patterns-go/
 │   ├── impact-analysis/
 │   ├── langchain-skills/        # git submodule → langchain-ai/langchain-skills
 │   ├── langsmith-skills/        # git submodule → langchain-ai/langsmith-skills
