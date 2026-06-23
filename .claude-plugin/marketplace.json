@@ -26,6 +26,16 @@
       "description": "Catálogo dos 22 Design Patterns (GoF) com exemplos idiomáticos em Go, framework de decisão arquitetural e orientação sobre idiomas Go (composição, interfaces implícitas, goroutines/channels)."
     },
     {
+      "name": "design-patterns",
+      "source": "./plugins/design-patterns",
+      "description": "Referência agnóstica de linguagem dos 22 Design Patterns (GoF) com pseudocódigo, fundamentos de OOP, princípios de design e SOLID. Baseado em 'Dive Into Design Patterns' de Alexander Shvets (Refactoring.Guru)."
+    },
+    {
+      "name": "refactoring-catalog",
+      "source": "./plugins/refactoring-catalog",
+      "description": "Catálogo de refatorações e code smells para melhoria estrutural preservando comportamento. Baseado em 'Refactoring: Improving the Design of Existing Code' de Martin Fowler."
+    },
+    {
       "name": "csharp-quality-suite",
       "source": "./plugins/csharp-quality-suite",
       "description": "Suite completa de qualidade C#/.NET: Clean Code (code smells, princípios), Clean Architecture (camadas, SOLID arquitetural, Dependency Rule) e System Architecture (diagramas, API design, multi-cloud, platform engineering)."

@@ -1,0 +1,6 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Referência agnóstica de linguagem dos 22 Design Patterns (GoF) com pseudocódigo, fundamentos de OOP, princípios de design e SOLID. Baseado em 'Dive Into Design Patterns' de Alexander Shvets (Refactoring.Guru).",
+  "skills": "./skills/"
+}

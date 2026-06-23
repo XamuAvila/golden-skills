@@ -1,0 +1,6 @@
+{
+  "name": "refactoring-catalog",
+  "version": "1.0.0",
+  "description": "Catálogo de refatorações e code smells para melhoria estrutural preservando comportamento. Baseado em 'Refactoring: Improving the Design of Existing Code' de Martin Fowler.",
+  "skills": "./skills/"
+}
