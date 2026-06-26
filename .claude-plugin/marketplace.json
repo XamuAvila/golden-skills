@@ -79,6 +79,11 @@
       "name": "clean-code-typescript",
       "source": "./plugins/clean-code-typescript",
       "description": "Guia completo de Clean Code para TypeScript baseado nos princípios de Robert C. Martin. Cobre variáveis, funções, classes, SOLID, testes, concorrência, tratamento de erros, formatação, comentários e padrões TypeScript-específicos (branded types, discriminated unions, Result pattern, exhaustive checks)."
+    },
+    {
+      "name": "data-intensive-apps",
+      "source": "./plugins/data-intensive-apps",
+      "description": "Practical reference for designing data-intensive applications — data models, storage engines, replication, partitioning, transactions, distributed systems, consistency, batch and stream processing. Based on 'Designing Data-Intensive Applications' by Martin Kleppmann (O'Reilly)."
     }
   ]
 }
