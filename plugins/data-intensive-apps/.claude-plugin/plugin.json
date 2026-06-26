@@ -1,0 +1,6 @@
+{
+  "name": "data-intensive-apps",
+  "version": "1.0.0",
+  "description": "Practical guide to designing data-intensive applications — data models, storage engines, replication, partitioning, transactions, distributed systems, consistency, batch and stream processing. Based on 'Designing Data-Intensive Applications' by Martin Kleppmann (O'Reilly).",
+  "skills": "./skills/"
+}
