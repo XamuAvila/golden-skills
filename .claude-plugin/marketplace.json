@@ -74,6 +74,11 @@
       "name": "startup-cto-handbook",
       "source": "./plugins/startup-cto-handbook",
       "description": "Startup engineering leadership guide from 'The Startup CTO's Handbook' by Zach Goldberg. Covers engineering management, hiring, 1:1s, performance reviews, tech debt, roadmaps, agile processes, architecture decisions, DevOps, team organization, and working with executives."
+    },
+    {
+      "name": "clean-code-typescript",
+      "source": "./plugins/clean-code-typescript",
+      "description": "Guia completo de Clean Code para TypeScript baseado nos princípios de Robert C. Martin. Cobre variáveis, funções, classes, SOLID, testes, concorrência, tratamento de erros, formatação, comentários e padrões TypeScript-específicos (branded types, discriminated unions, Result pattern, exhaustive checks)."
     }
   ]
 }

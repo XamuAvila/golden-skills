@@ -1,0 +1,6 @@
+{
+  "name": "clean-code-typescript",
+  "version": "1.0.0",
+  "description": "Guia completo de Clean Code para TypeScript baseado nos princípios de Robert C. Martin.",
+  "skills": "./skills/"
+}

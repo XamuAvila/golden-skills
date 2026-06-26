@@ -58,6 +58,7 @@ git submodule update --init --recursive
 
 | Plugin | Skills | Descrição |
 |--------|--------|-----------|
+| `clean-code-typescript` | `clean-code-typescript` | Guia completo de Clean Code para TypeScript — variáveis, funções, classes, SOLID, testes, erros, e padrões TS-específicos |
 | `design-patterns-typescript` | `design-patterns-typescript` | 22 Design Patterns (GoF) com exemplos em TypeScript e diagramas Mermaid |
 
 ### Go
@@ -141,6 +142,30 @@ Cada pattern inclui: diagrama Mermaid, código C# compilável, quando usar, vant
 ```bash
 /plugin install design-patterns-csharp@golden-skills
 /design-patterns-csharp:design-patterns-csharp
+```
+
+---
+
+### `clean-code-typescript`
+
+Guia completo de Clean Code para TypeScript, baseado nos princípios de *Código Limpo* de Robert C. Martin e no repositório [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript). Todos os exemplos convertidos para TypeScript moderno com práticas TS-específicas.
+
+**11 seções de referência:**
+- **Variables** — nomes significativos, pesquisáveis, sem mapeamento mental
+- **Functions** — ≤2 params, SRP, sem flags, sem side effects, programação funcional
+- **Objects & Data Structures** — getters/setters nativos, membros privados (`#`)
+- **Classes** — ES6+, fluent API, composição > herança
+- **SOLID** — SRP, OCP, LSP, ISP, DIP com interfaces e generics TypeScript
+- **Testing** — um conceito por teste, fixtures tipadas
+- **Concurrency** — async/await, `Promise.all` com tuplas, `unknown` em catch
+- **Error Handling** — custom errors, Result pattern, never swallow
+- **Formatting** — convenções de capitalização, proximidade vertical
+- **Comments** — só business logic, sem código morto
+- **TypeScript-Specific** — `strict: true`, branded types, discriminated unions, `satisfies`, type guards, exhaustive checks
+
+```bash
+/plugin install clean-code-typescript@golden-skills
+/clean-code-typescript:clean-code-typescript
 ```
 
 ---
@@ -264,6 +289,12 @@ golden-skills/
 │   │       └── design-patterns-csharp/
 │   │           ├── SKILL.md
 │   │           └── patterns/         # behavioral/ creational/ structural/
+│   ├── clean-code-typescript/
+│   │   ├── .claude-plugin/plugin.json
+│   │   └── skills/
+│   │       └── clean-code-typescript/
+│   │           ├── SKILL.md
+│   │           └── sections/          # 11 seções
 │   ├── design-patterns-typescript/
 │   ├── design-patterns-go/
 │   ├── impact-analysis/
