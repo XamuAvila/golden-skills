@@ -1,0 +1,6 @@
+{
+  "name": "multi-tenant-saas-patterns",
+  "version": "1.0.0",
+  "description": "Catalog of architecture, design, and implementation patterns for multi-tenant SaaS applications — isolation strategies, database topology, tenant data models, routing, authentication, and connection pooling. Based on Sharda et al., 'Patterns of Multi-Tenant SaaS Applications' (EMC, 2014).",
+  "skills": "./skills/"
+}
