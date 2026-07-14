@@ -81,6 +81,12 @@ git submodule update --init --recursive
 |--------|--------|-----------|
 | `impact-analysis` | `impact-analysis` | Análise de impacto pré-implementação com busca semântica, diagramas Mermaid e checklist de riscos |
 
+### Produto / Growth
+
+| Plugin | Skills | Descrição |
+|--------|--------|-----------|
+| `hooked` | `hooked-habit-design` (router), `hooked-triggers`, `hooked-action`, `hooked-variable-reward`, `hooked-investment`, `hooked-habit-testing` | Hook Model de Nir Eyal (*Hooked*, 2014) para projetar produtos que formam hábito — engagement, retenção, onboarding, notificações, feeds e gamificação |
+
 ---
 
 ## Detalhamento dos Plugins
@@ -206,6 +212,24 @@ Ideal para usar **antes** de implementar features, refatorações ou bugfixes.
 ```bash
 /plugin install impact-analysis@golden-skills
 /impact-analysis:impact-analysis
+```
+
+---
+
+### `hooked`
+
+Aplica o **Hook Model** de Nir Eyal (*Hooked: How to Build Habit-Forming Products*, 2014) para projetar e revisar features que formam hábito. Uma skill *router* orquestra cinco sub-skills — uma por fase do ciclo, mais validação e ética:
+
+- **`hooked-habit-design`** (router) — ciclo Trigger → Action → Variable Reward → Investment, as 5 perguntas fundamentais, filtros de aptidão (Habit Zone, vitamin vs painkiller) e o gate de ética (Manipulation Matrix)
+- **`hooked-triggers`** — gatilhos externos (Paid/Earned/Relationship/Owned) e internos (emoções), método dos 5 Porquês, transição externo→interno
+- **`hooked-action`** — Fogg Behavior Model (B=MAT), 3 core motivators, 6 elementos de simplicidade, "start with ability", heurísticas (scarcity, framing, anchoring, endowed progress)
+- **`hooked-variable-reward`** — 3 tipos de recompensa (Tribe/Hunt/Self), variabilidade finita vs infinita, autonomia/reactance, por que gamificação sozinha falha
+- **`hooked-investment`** — efeito IKEA, stored value (content/data/followers/reputation/skill), "loading the next trigger", investimentos progressivos
+- **`hooked-habit-testing`** — Habit Testing (Identify → Codify → Modify), regra dos 5%, cohort analysis, Manipulation Matrix, onde achar oportunidades de hábito
+
+```bash
+/plugin install hooked@golden-skills
+/hooked:hooked-habit-design
 ```
 
 ---
