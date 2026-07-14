@@ -89,6 +89,11 @@
       "name": "hooked",
       "source": "./plugins/hooked",
       "description": "Design habit-forming products with Nir Eyal's Hook Model ('Hooked', 2014). Router skill plus a sub-skill per phase — Trigger, Action, Variable Reward, Investment — and a Habit Testing & Ethics skill (Habit Testing, 5% rule, cohort analysis, Manipulation Matrix). For engagement, retention, onboarding, notifications, feeds, and gamification decisions."
+    },
+    {
+      "name": "multi-tenant-saas-patterns",
+      "source": "./plugins/multi-tenant-saas-patterns",
+      "description": "Catalog of architecture, design, and implementation patterns for multi-tenant SaaS applications — isolation strategies, database topology, tenant data models, routing, authentication, and connection pooling. Based on Sharda et al., 'Patterns of Multi-Tenant SaaS Applications' (EMC, 2014)."
     }
   ]
 }

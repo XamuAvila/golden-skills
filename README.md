@@ -80,6 +80,8 @@ git submodule update --init --recursive
 | Plugin | Skills | Descrição |
 |--------|--------|-----------|
 | `impact-analysis` | `impact-analysis` | Análise de impacto pré-implementação com busca semântica, diagramas Mermaid e checklist de riscos |
+| `data-intensive-apps` | `data-intensive-apps` | Design de aplicações data-intensive — modelos de dados, storage engines, replicação, partitioning, transações, sistemas distribuídos, batch e stream processing (Kleppmann) |
+| `multi-tenant-saas-patterns` | `multi-tenant-saas-patterns` | Patterns de arquitetura, design e implementação para SaaS multi-tenant — isolamento, topologia de banco, modelos de dados por tenant, routing, autenticação e connection pooling |
 
 ### Produto / Growth
 
@@ -212,6 +214,37 @@ Ideal para usar **antes** de implementar features, refatorações ou bugfixes.
 ```bash
 /plugin install impact-analysis@golden-skills
 /impact-analysis:impact-analysis
+```
+
+---
+
+### `data-intensive-apps`
+
+Referência prática para projetar aplicações **data-intensive**, baseada em *Designing Data-Intensive Applications* de Martin Kleppmann (O'Reilly). Skill única com carregamento de referências sob demanda:
+
+- **`foundations`** — reliability/scalability/maintainability, modelos de dados (relacional, documento, grafo), storage engines (LSM-trees, B-trees), query languages, OLTP vs OLAP
+- **`distributed-data`** — replicação (single-leader, multi-leader, leaderless) e partitioning
+- **`transactions-consistency`** — ACID, níveis de isolamento, linearizabilidade, consenso
+- **`derived-data`** — batch processing e stream processing
+
+```bash
+/plugin install data-intensive-apps@golden-skills
+/data-intensive-apps:data-intensive-apps
+```
+
+---
+
+### `multi-tenant-saas-patterns`
+
+Catálogo de patterns de **arquitetura, design e implementação** para aplicações SaaS multi-tenant, baseado em Sharda et al., *Patterns of Multi-Tenant SaaS Applications* (EMC, 2014). Skill única com referências separadas:
+
+- **`architecture-patterns`** (§2) — isolamento da aplicação (instance-per-tenant vs shared application), isolamento de banco (database-per-tenant, private schema, shared tables) e arquiteturas metadata-driven
+- **`design-patterns`** (§3) — table layouts (private/basic/extension/universal), Tenant Context, Tenant Router, Tenant Resolver e autenticação (app-managed, directory sync, SAML/SSO/federation)
+- **`implementation-patterns`** (§4) — isolating filter, sub-domain vs sub-directory por tenant, connection-pool-per-tenant vs shared connection pool
+
+```bash
+/plugin install multi-tenant-saas-patterns@golden-skills
+/multi-tenant-saas-patterns:multi-tenant-saas-patterns
 ```
 
 ---
