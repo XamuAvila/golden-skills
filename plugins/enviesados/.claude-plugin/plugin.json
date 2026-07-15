@@ -1,0 +1,6 @@
+{
+  "name": "enviesados",
+  "version": "1.0.0",
+  "description": "Apply cognitive biases and applied psychology to product/UX design decisions, based on Rian Dutra's 'ENVIESADOS' (2024). Covers 8 biases — Anchoring, Loss Aversion, Cashless Effect, Sunk Cost, Status Quo, Framing, Decision Fatigue, Affect Heuristic — mapped to concrete design decisions (pricing, checkout, trials, cancellation, defaults, copy, choice architecture, visuals), plus a deceptive-design ethics gate.",
+  "skills": "./skills/"
+}

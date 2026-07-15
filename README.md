@@ -88,6 +88,7 @@ git submodule update --init --recursive
 | Plugin | Skills | Descrição |
 |--------|--------|-----------|
 | `hooked` | `hooked-habit-design` (router), `hooked-triggers`, `hooked-action`, `hooked-variable-reward`, `hooked-investment`, `hooked-habit-testing` | Hook Model de Nir Eyal (*Hooked*, 2014) para projetar produtos que formam hábito — engagement, retenção, onboarding, notificações, feeds e gamificação |
+| `enviesados` | `cognitive-bias-design` | 8 vieses cognitivos aplicados a decisões de design (*ENVIESADOS*, Rian Dutra, 2024) — pricing, checkout, trials, cancelamento, defaults, copy, arquitetura de escolha, visuais, e gate de ética sobre deceptive design |
 
 ---
 
@@ -263,6 +264,24 @@ Aplica o **Hook Model** de Nir Eyal (*Hooked: How to Build Habit-Forming Product
 ```bash
 /plugin install hooked@golden-skills
 /hooked:hooked-habit-design
+```
+
+---
+
+### `enviesados`
+
+Aplica **vieses cognitivos e psicologia** a decisões concretas de design de produto/UX, baseado em *ENVIESADOS: Psicologia e Vieses Cognitivos no Design* de Rian Dutra (2024). Skill única com um mapa **decisão → viés** e referências separadas:
+
+- **`references/value-perception.md`** — Ancoragem (roda da fortuna de Tversky & Kahneman, leilão do SSN de Ariely, MailChimp, Udemy), Efeito Cashless (dor de pagamento, Amazon 1-Click, MagicBand, +37% em vending machines) e Enquadramento (McDonald's "91% livre de gordura", carne "75% magra", enquadramento de perguntas de pesquisa)
+- **`references/retention-and-inertia.md`** — Aversão à Perda (Teoria do Prospecto, problema da doença asiática, LinkedIn Premium, fluxo de cancelamento da Adobe), Custo Afundado/Comprometimento (Concorde, desafio de 7 dias do Duolingo +14%, caso próprio do autor: 30% de conversão e US$100k/mês) e Status Quo (Samuelson & Zeckhauser, auto-enrollment +48%, efeito de posição em busca, GoDaddy)
+- **`references/choice-and-emotion.md`** — Fadiga de Decisão e Paradoxo da Escolha (juízes de liberdade condicional 70% vs 10%, Netflix 17,8 min, satisficing de Krug, Zara vs Banana Republic, design antecipatório) e Heurística do Afeto (thumbnails da Netflix = 82% do foco, 4 condições de Schwarz, Airbnb, efeito de dominância de proporção)
+- **`references/ethics-and-dark-patterns.md`** — taxonomia dos 12 padrões enganosos (Brignull/deceptive.design), a discordância do autor com a distinção "dark vs persuasive" da NN/g, o conceito de **Designs Impostores**, e o Epílogo sobre **Human Experience Design** (HX Design)
+
+Complementa `hooked`: `hooked` modela o **loop** recorrente, `enviesados` modela a **decisão individual** dentro dele.
+
+```bash
+/plugin install enviesados@golden-skills
+/enviesados:cognitive-bias-design
 ```
 
 ---

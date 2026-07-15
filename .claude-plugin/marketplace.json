@@ -94,6 +94,11 @@
       "name": "multi-tenant-saas-patterns",
       "source": "./plugins/multi-tenant-saas-patterns",
       "description": "Catalog of architecture, design, and implementation patterns for multi-tenant SaaS applications — isolation strategies, database topology, tenant data models, routing, authentication, and connection pooling. Based on Sharda et al., 'Patterns of Multi-Tenant SaaS Applications' (EMC, 2014)."
+    },
+    {
+      "name": "enviesados",
+      "source": "./plugins/enviesados",
+      "description": "Vieses cognitivos e psicologia aplicada a decisões de design de produto/UX, baseado em 'ENVIESADOS' de Rian Dutra (2024). Cobre 8 vieses — Ancoragem, Aversão à Perda, Efeito Cashless, Custo Afundado, Status Quo, Enquadramento, Fadiga de Decisão e Heurística do Afeto — mapeados para decisões concretas (pricing, checkout, trials, cancelamento, defaults, copy, arquitetura de escolha, visuais), mais um gate de ética sobre deceptive design."
     }
   ]
 }
